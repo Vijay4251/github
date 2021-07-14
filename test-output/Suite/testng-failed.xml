@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Linsteners.Customlisteners"/>
+  </listeners>
+  <test thread-count="5" name="test">
+    <classes>
+      <class name="Linsteners.Linstenersexample"/>
+    </classes>
+  </test> <!-- test -->
+  <test name="test(failed)">
+    <classes>
+      <class name="Linsteners.Linstenersexample">
+        <methods>
+          <include name="test2"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- Linsteners.Linstenersexample -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

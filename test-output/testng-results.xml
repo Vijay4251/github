@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39345" started-at="2021-07-13T05:45:12Z" finished-at="2021-07-13T05:45:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39345" started-at="2021-07-13T05:45:12Z" finished-at="2021-07-13T05:45:51Z">
+      <class name="com.bookstore.api.TC_reqres_API">
+        <test-method status="PASS" signature="test_getUser()[pri:3, instance:com.bookstore.api.TC_reqres_API@7f690630]" name="test_getUser" duration-ms="34477" started-at="2021-07-13T11:15:12Z" finished-at="2021-07-13T11:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getUser -->
+        <test-method status="PASS" signature="test_UpdateUserDetails()[pri:4, instance:com.bookstore.api.TC_reqres_API@7f690630]" name="test_UpdateUserDetails" duration-ms="4185" started-at="2021-07-13T11:15:46Z" finished-at="2021-07-13T11:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_UpdateUserDetails -->
+        <test-method status="PASS" signature="test_DeleteUser()[pri:5, instance:com.bookstore.api.TC_reqres_API@7f690630]" name="test_DeleteUser" duration-ms="596" started-at="2021-07-13T11:15:50Z" finished-at="2021-07-13T11:15:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_DeleteUser -->
+      </class> <!-- com.bookstore.api.TC_reqres_API -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
